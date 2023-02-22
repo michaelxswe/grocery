@@ -1,0 +1,62 @@
+[
+  {
+    "id": 101,
+    "name": "Banana",
+    "price": 0.99,
+    "imgUrl": "/home/produce/banana.jpg"
+  },
+  {
+    "id": 102,
+    "name": "Carrot",
+    "price": 1.99,
+    "imgUrl": "/home/produce/carrot.jpg"
+  },
+  {
+    "id": 103,
+    "name": "Broccoli",
+    "price": 5.49,
+    "imgUrl": "/home/produce/broccoli.jpg"
+  },
+  {
+    "id": 104,
+    "name": "Tomato",
+    "price": 6.99,
+    "imgUrl": "/home/produce/tomato.jpg"
+  },
+  {
+    "id": 105,
+    "name": "Lettuce",
+    "price": 3.49,
+    "imgUrl": "/home/produce/lettuce.jpg"
+  },
+  {
+    "id": 106,
+    "name": "Orange",
+    "price": 3.99,
+    "imgUrl": "/home/produce/orange.jpg"
+  },
+  {
+    "id": 107,
+    "name": "Grape",
+    "price": 8.99,
+    "imgUrl": "/home/produce/grapes.jpg"
+  },
+  {
+    "id": 108,
+    "name": "Pepper",
+    "price": 7.49,
+    "imgUrl": "/home/produce/peppers.jpg"
+  },
+  {
+    "id": 109,
+    "name": "Potato",
+    "price": 4.99,
+    "imgUrl": "/home/produce/potato.jpg"
+  },
+  {
+    "id": 110,
+    "name": "Cucumber",
+    "price": 7.49,
+    "imgUrl": "/home/produce/cucumber.jpg"
+  }
+]
