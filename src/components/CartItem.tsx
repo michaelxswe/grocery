@@ -1,25 +1,25 @@
-import { useShoppingCart } from "../context/ShoppingCartContext";
-import { Button, Stack } from "react-bootstrap";
-import { formatCurrency } from "../utilities/formatCurrency";
+import { useShoppingCart } from "../context/ShoppingCartContext"
+import { Button, Stack } from "react-bootstrap"
+import { formatCurrency } from "../utilities/formatCurrency"
 
-import a from "../data/sub/produce.json";
-import b from "../data/sub/deliciousness.json";
-import c from "../data/sub/bakery.json";
-import d from "../data/sub/meat.json";
-import e from "../data/sub/snacks.json";
-import f from "../data/sub/dairy.json";
+import a from "../data/sub/produce.json"
+import b from "../data/sub/deliciousness.json"
+import c from "../data/sub/bakery.json"
+import d from "../data/sub/meat.json"
+import e from "../data/sub/snacks.json"
+import f from "../data/sub/dairy.json"
 
 type CartItemProps = {
-  id: number;
-  quantity: number;
-};
+  id: number
+  quantity: number
+}
 
 export function CartItem({ id, quantity }: CartItemProps) {
-  const allItems = [...a, ...b, ...c, ...d, ...e, ...f];
+  const allItems = [...a, ...b, ...c, ...d, ...e, ...f]
 
-  const { removeFromCart } = useShoppingCart();
-  const item = allItems.find((i) => i.id === id);
-  if (item == null) return null;
+  const { removeFromCart } = useShoppingCart()
+  const item = allItems.find((i) => i.id === id)
+  if (item == null) return null
 
   return (
     <Stack direction="horizontal" gap={2} className="d-flex align-items-center">
@@ -49,5 +49,5 @@ export function CartItem({ id, quantity }: CartItemProps) {
         &times;
       </Button>
     </Stack>
-  );
+  )
 }

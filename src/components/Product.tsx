@@ -1,13 +1,13 @@
-import { Button, Card } from "react-bootstrap";
-import { useShoppingCart } from "../context/ShoppingCartContext";
-import { formatCurrency } from "../utilities/formatCurrency";
+import { Button, Card } from "react-bootstrap"
+import { useShoppingCart } from "../context/ShoppingCartContext"
+import { formatCurrency } from "../utilities/formatCurrency"
 
 type ProductProps = {
-  id: number;
-  name: string;
-  price: number;
-  imgUrl: string;
-};
+  id: number
+  name: string
+  price: number
+  imgUrl: string
+}
 
 export function Product({ id, name, price, imgUrl }: ProductProps) {
   const {
@@ -15,9 +15,9 @@ export function Product({ id, name, price, imgUrl }: ProductProps) {
     increaseCartQuantity,
     decreaseCartQuantity,
     removeFromCart,
-  } = useShoppingCart();
+  } = useShoppingCart()
 
-  const quantity = getItemQuantity(id);
+  const quantity = getItemQuantity(id)
 
   return (
     <Card className="h-100">
@@ -82,5 +82,5 @@ export function Product({ id, name, price, imgUrl }: ProductProps) {
         </div>
       </Card.Body>
     </Card>
-  );
+  )
 }

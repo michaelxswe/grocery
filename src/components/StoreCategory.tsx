@@ -1,10 +1,10 @@
-import { Card } from "react-bootstrap";
+import { Card } from "react-bootstrap"
 
 type StoreCategoryProps = {
-  id: number;
-  name: string;
-  imgUrl: string;
-};
+  id: number
+  name: string
+  imgUrl: string
+}
 
 export function StoreCategory({ id, name, imgUrl }: StoreCategoryProps) {
   return (
@@ -21,5 +21,5 @@ export function StoreCategory({ id, name, imgUrl }: StoreCategoryProps) {
         </Card.Title>
       </Card.Body>
     </Card>
-  );
+  )
 }

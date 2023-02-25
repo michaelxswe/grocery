@@ -1,23 +1,23 @@
-import { Offcanvas, Stack } from "react-bootstrap";
-import { useShoppingCart } from "../context/ShoppingCartContext";
-import { CartItem } from "./CartItem";
-import { formatCurrency } from "../utilities/formatCurrency";
+import { Offcanvas, Stack } from "react-bootstrap"
+import { useShoppingCart } from "../context/ShoppingCartContext"
+import { CartItem } from "./CartItem"
+import { formatCurrency } from "../utilities/formatCurrency"
 
-import a from "../data/sub/produce.json";
-import b from "../data/sub/deliciousness.json";
-import c from "../data/sub/meat.json";
-import d from "../data/sub/bakery.json";
-import e from "../data/sub/snacks.json";
-import f from "../data/sub/dairy.json";
+import a from "../data/sub/produce.json"
+import b from "../data/sub/deliciousness.json"
+import c from "../data/sub/meat.json"
+import d from "../data/sub/bakery.json"
+import e from "../data/sub/snacks.json"
+import f from "../data/sub/dairy.json"
 
 type ShoppingCartProps = {
-  isOpen: boolean;
-};
+  isOpen: boolean
+}
 
 export function ShoppingCart({ isOpen }: ShoppingCartProps) {
-  const allItems = [...a, ...b, ...c, ...d, ...e, ...f];
+  const allItems = [...a, ...b, ...c, ...d, ...e, ...f]
 
-  const { closeCart, cartItems } = useShoppingCart();
+  const { closeCart, cartItems } = useShoppingCart()
 
   return (
     <Offcanvas show={isOpen} onHide={closeCart} placement="end">
@@ -34,12 +34,12 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
           Total{" "}
           {formatCurrency(
             cartItems.reduce((total, cartItem) => {
-              const item = allItems.find((i) => i.id === cartItem.id);
-              return total + (item?.price || 0) * cartItem.quantity;
+              const item = allItems.find((i) => i.id === cartItem.id)
+              return total + (item?.price || 0) * cartItem.quantity
             }, 0)
           )}
         </div>
       </Offcanvas.Body>
     </Offcanvas>
-  );
+  )
 }

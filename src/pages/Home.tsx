@@ -12,7 +12,7 @@ export function Home() {
     "/home/snacks",
     "/home/deliciousness",
   ];
-  return (
+  return ( 
     <>
       <Row xs={1} md={2} lg={3} className="g-3">
         {storeCategories.map((category, key) => (

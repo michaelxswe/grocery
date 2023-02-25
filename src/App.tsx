@@ -1,9 +1,9 @@
-import { Routes, Route } from "react-router-dom";
-import { Container } from "react-bootstrap";
-import { Home } from "./pages/Home";
-import { Navbar } from "./components/Navbar";
-import { Products } from "./pages/Products";
-import { ShoppingCartProvider } from "./context/ShoppingCartContext";
+import { Routes, Route } from "react-router-dom"
+import { Container } from "react-bootstrap"
+import { Home } from "./pages/Home"
+import { Navbar } from "./components/Navbar"
+import { Products } from "./pages/Products"
+import { ShoppingCartProvider } from "./context/ShoppingCartContext"
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         </Routes>
       </Container>
     </ShoppingCartProvider>
-  );
+  )
 }
 
-export default App;
+export default App
