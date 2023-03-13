@@ -1,13 +1,10 @@
-{ "homepage": "https://michaelxbot.github.io/home/",
-  "name": "grocery",
+{ "name": "grocery",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {

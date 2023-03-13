@@ -3,36 +3,36 @@
     "id": 501,
     "name": "Chips",
     "price": 2.99,
-    "imgUrl": "/home/snacks/chips.jpg"
+    "imgUrl": "/snacks/chips.jpg"
   },
   {
     "id": 502,
     "name": "Crackers",
     "price": 2.99,
-    "imgUrl": "/home/snacks/crackers.jpg"
+    "imgUrl": "/snacks/crackers.jpg"
   },
   {
     "id": 503,
     "name": "Popcorn",
     "price": 3.49,
-    "imgUrl": "/home/snacks/popcorn.jpg"
+    "imgUrl": "/snacks/popcorn.jpg"
   },
   {
     "id": 504,
     "name": "Ice Cream",
     "price": 8.99,
-    "imgUrl": "/home/snacks/icecream.jpg"
+    "imgUrl": "/snacks/icecream.jpg"
   },
   {
     "id": 505,
     "name": "Oreo",
     "price": 10.99,
-    "imgUrl": "/home/snacks/oreo.jpg"
+    "imgUrl": "/snacks/oreo.jpg"
   },
   {
     "id": 506,
     "name": "Chocolate",
     "price": 7.99,
-    "imgUrl": "/home/snacks/chocolate.jpg"
+    "imgUrl": "/snacks/chocolate.jpg"
   }
 ]

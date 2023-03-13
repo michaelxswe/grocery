@@ -5,12 +5,12 @@ import storeCategories from "../data/main/categories.json";
 
 export function Home() {
   const linkDestinations = [
-    "/home/produce",
-    "/home/meat",
-    "/home/dairy",
-    "/home/bakery",
-    "/home/snacks",
-    "/home/deliciousness",
+    "/produce",
+    "/meat",
+    "/dairy",
+    "/bakery",
+    "/snacks",
+    "/deliciousness",
   ];
   return ( 
     <>

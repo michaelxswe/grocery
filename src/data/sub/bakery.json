@@ -3,31 +3,31 @@
     "id": 401,
     "name": "Sourdough bread",
     "price": 4.99,
-    "imgUrl": "/home/bakery/sourdoughbread.jpg"
+    "imgUrl": "/bakery/sourdoughbread.jpg"
   },
   {
     "id": 402,
     "name": "Baguette",
     "price": 3.99,
-    "imgUrl": "/home/bakery/baguette.jpg"
+    "imgUrl": "/bakery/baguette.jpg"
   },
   {
     "id": 403,
     "name": "Croissant",
     "price": 2.99,
-    "imgUrl": "/home/bakery/croissant.jpg"
+    "imgUrl": "/bakery/croissant.jpg"
   },
   {
     "id": 404,
     "name": "Muffin",
     "price": 3.49,
-    "imgUrl": "/home/bakery/muffin.jpg"
+    "imgUrl": "/bakery/muffin.jpg"
   },
   {
     "id": 405,
     "name": "Donut",
     "price": 5.99,
-    "imgUrl": "/home/bakery/donut.jpg"
+    "imgUrl": "/bakery/donut.jpg"
   }
   
 ]

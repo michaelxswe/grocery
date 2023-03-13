@@ -3,30 +3,30 @@
     "id": 301,
     "name": "Egg",
     "price": 2.99,
-    "imgUrl": "/home/dairy/egg.jpg"
+    "imgUrl": "/dairy/egg.jpg"
   },
   {
     "id": 302,
     "name": "Milk",
     "price": 2.49,
-    "imgUrl": "/home/dairy/milk.jpg"
+    "imgUrl": "/dairy/milk.jpg"
   },
   {
     "id": 303,
     "name": "Cheese",
     "price": 2.99,
-    "imgUrl": "/home/dairy/cheese.jpg"
+    "imgUrl": "/dairy/cheese.jpg"
   },
   {
     "id": 304,
     "name": "Butter",
     "price": 6.99,
-    "imgUrl": "/home/dairy/butter.jpg"
+    "imgUrl": "/dairy/butter.jpg"
   },
   {
     "id": 305,
     "name": "Sour Cream",
     "price": 5.99,
-    "imgUrl": "/home/dairy/sourcream.jpg"
+    "imgUrl": "/dairy/sourcream.jpg"
   }
 ]

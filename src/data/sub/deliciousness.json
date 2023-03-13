@@ -3,36 +3,36 @@
     "id": 601,
     "name": "Burger",
     "price": 6.49,
-    "imgUrl": "/home/deliciousness/burger.jpg"
+    "imgUrl": "/deliciousness/burger.jpg"
   },
   {
     "id": 602,
     "name": "Sandwich",
     "price": 7.49,
-    "imgUrl": "/home/deliciousness/sandwich.jpg"
+    "imgUrl": "/deliciousness/sandwich.jpg"
   },
   {
     "id": 603,
     "name": "Pizza",
     "price": 5.99,
-    "imgUrl": "/home/deliciousness/pizza.jpg"
+    "imgUrl": "/deliciousness/pizza.jpg"
   },
   {
     "id": 604,
     "name": "Fried Chicken",
     "price": 8.99,
-    "imgUrl": "/home/deliciousness/friedchicken.jpg"
+    "imgUrl": "/deliciousness/friedchicken.jpg"
   },
   {
     "id": 605,
     "name": "Hot Dog",
     "price": 2.99,
-    "imgUrl": "/home/deliciousness/hotdog.jpg"
+    "imgUrl": "/deliciousness/hotdog.jpg"
   },
   {
     "id": 606,
     "name": "Taco",
     "price": 2.99,
-    "imgUrl": "/home/deliciousness/taco.jpg"
+    "imgUrl": "/deliciousness/taco.jpg"
   }
 ]

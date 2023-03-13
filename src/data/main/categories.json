@@ -2,31 +2,31 @@
   {
     "id": 100,
     "name": "Produce",
-    "imgUrl": "/home/category/produce.jpg"
+    "imgUrl": "/category/produce.jpg"
   },
   {
     "id": 200,
     "name": "Meat",
-    "imgUrl": "/home/category/meat.jpg"
+    "imgUrl": "/category/meat.jpg"
   },
   {
     "id": 300,
     "name": "Dairy",
-    "imgUrl": "/home/category/dairy.jpg"
+    "imgUrl": "/category/dairy.jpg"
   },
   {
     "id": 400,
     "name": "Bakery",
-    "imgUrl": "/home/category/bakery.jpg"
+    "imgUrl": "/category/bakery.jpg"
   },
   {
     "id": 500,
     "name": "Snacks",
-    "imgUrl": "/home/category/snacks.jpg"
+    "imgUrl": "/category/snacks.jpg"
   },
   {
     "id": 600,
     "name": "Deliciousness",
-    "imgUrl": "/home/category/deliciousness.jpg"
+    "imgUrl": "/category/deliciousness.jpg"
   }
 ]
